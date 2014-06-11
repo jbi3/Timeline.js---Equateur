@@ -12,6 +12,15 @@ body
 {    display: none;		}
 
 /* ---------------------
+	PAGE TITLE
+--------------------- */
+.vco-storyjs h2.start 
+{	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	font-size: 45px !important;
+	text-transform: uppercase;
+	color: #E6000A;	}
+
+/* ---------------------
 	CONTENEUR TEXTE
 --------------------- */
 .vco-slider .slider-item .content .content-container .text .container h3 /*TITRES H3*/
@@ -44,6 +53,12 @@ body .vco-timeline .vco-navigation .timenav-background .timenav-tag div h3 /*TIT
 {	opacity: 0.8;		}
 .vco-timeline .vco-navigation .timenav .content .marker .flag .flag-content h3, .vco-timeline .vco-navigation .timenav .content .marker .flag-small .flag-content h3 /*TITRES FLAGS TIMELINE*/
 {	color: #222;		}
+body .vco-timeline .vco-navigation .timenav-background .timenav-tag-row-2 div h3 
+{    color: #888;		}
+body .vco-timeline .vco-navigation .timenav-background .timenav-tag-row-4 div h3 
+{    color: #888;		}
+body .vco-timeline .vco-navigation .timenav-background .timenav-tag-row-6 div h3 
+{    color: #888;		}
 .vco-timeline .vco-navigation .timenav .content .marker.active .flag-small .flag-content h3 
 {    color: #E6000A !important;	}
 .vco-notouch .vco-navigation .timenav .content .marker.active:hover .flag .flag-content h3, .vco-notouch .vco-navigation .timenav .content .marker.active:hover .flag-small .flag-content h3 
