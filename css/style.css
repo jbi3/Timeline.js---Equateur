@@ -3,6 +3,9 @@
 body
 {	margin: 0 auto;		}
 
+#storyjs 
+{    background-color: #222;	}
+
 /* -----------------------------
 	FLECHES DE NAVIGATION
 ----------------------------- */
@@ -28,7 +31,8 @@ body
     font-family: 'Pontano Sans',sans-serif !important;
     font-size: 3em;
     line-height: normal;
-    text-transform: uppercase;	}
+    text-transform: uppercase;
+    color: #fff !important;	}
 
 .vco-slider .slider-item .content .content-container .text .container h2.date /*DATES*/
 {   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
@@ -38,6 +42,9 @@ body
 
 .vco-slider .slider-item .content .content-container .text .container .slide-tag
 {	background-color: #E6000A !important;		}
+
+.vco-slider .slider-item .content .content-container .text .container p 
+{	color: #fff;	}
 
 /* -----------------------------
 	NAVIGATION TIMELINE
