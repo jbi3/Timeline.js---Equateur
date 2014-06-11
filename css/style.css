@@ -15,14 +15,20 @@ body
 	CONTENEUR TEXTE
 --------------------- */
 .vco-slider .slider-item .content .content-container .text .container h3 /*TITRES H3*/
-{    margin-top: 15px;
+{   margin-top: 15px;
     font-family: 'Pontano Sans',sans-serif !important;
     font-size: 3em;
     line-height: normal;
     text-transform: uppercase;	}
 
 .vco-slider .slider-item .content .content-container .text .container h2.date /*DATES*/
-{    color: #E6000A;	}
+{   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	font-size: 2em;
+	text-transform: uppercase;
+	color: #E6000A;	}
+
+.vco-slider .slider-item .content .content-container .text .container .slide-tag
+{	background-color: #E6000A !important;		}
 
 /* -----------------------------
 	NAVIGATION TIMELINE
@@ -31,7 +37,24 @@ body .vco-timeline .vco-navigation .timenav-background .timenav-tag div h3 /*TIT
 {   font-size: 12px;
     color: #222;	}
 
+.vco-timeline .vco-navigation .timenav-background .timenav-line
+{   background-color: #E6000A !important;	}
+
 .flag /*FLAGS TIMELINE*/
 {	opacity: 0.8;		}
 .vco-timeline .vco-navigation .timenav .content .marker .flag .flag-content h3, .vco-timeline .vco-navigation .timenav .content .marker .flag-small .flag-content h3 /*TITRES FLAGS TIMELINE*/
 {	color: #222;		}
+.vco-timeline .vco-navigation .timenav .content .marker.active .flag-small .flag-content h3 
+{    color: #E6000A !important;	}
+.vco-notouch .vco-navigation .timenav .content .marker.active:hover .flag .flag-content h3, .vco-notouch .vco-navigation .timenav .content .marker.active:hover .flag-small .flag-content h3 
+{	color: #E6000A !important;	}
+
+.vco-timeline .vco-navigation .timenav .content .marker.active .line .event-line 
+{    background: none repeat scroll 0% 0% #E6000A !important;
+    opacity: 0.75;	}
+.vco-timeline .vco-navigation .timenav .content .marker .line .event-line
+{   background: none repeat scroll 0% 0% #E6000A !important;
+    opacity: 0.15;	}
+.vco-timeline .vco-navigation .timenav .content .marker.active .dot 
+{   background: none repeat scroll 0% 0% #E6000A !important;
+    z-index: 200;	}
