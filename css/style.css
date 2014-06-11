@@ -10,6 +10,28 @@ body
 {    display: none;		}
 .vco-slider .nav-next .title 
 {    display: none;		}
+.vco-notouch .vco-slider .nav-previous:hover, .vco-notouch .vco-slider .nav-next:hover 
+{   transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;	}
+.vco-notouch .vco-slider .nav-next:hover .icon 
+{   margin-left: 66px;
+    transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;	}
+.vco-notouch .vco-slider .nav-previous:hover, .vco-notouch .vco-slider .nav-previous:hover 
+{   transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;	}
+.vco-notouch .vco-slider .nav-previous:hover .icon 
+{   margin-left: 66px;
+    transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;	}
 
 /* ---------------------
 	PAGE TITLE
@@ -39,6 +61,14 @@ body
 .vco-slider .slider-item .content .content-container .text .container .slide-tag
 {	background-color: #E6000A !important;		}
 
+.vco-slider .slider-item .content .content-container .text .container p 
+{	hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -o-hyphens: auto;
+    word-wrap: normal;
+    text-align: justify;	}
+
 /* -----------------------------
 	NAVIGATION TIMELINE
 ----------------------------- */
@@ -53,11 +83,11 @@ body .vco-timeline .vco-navigation .timenav-background .timenav-tag div h3 /*TIT
 {	opacity: 0.8;		}
 .vco-timeline .vco-navigation .timenav .content .marker .flag .flag-content h3, .vco-timeline .vco-navigation .timenav .content .marker .flag-small .flag-content h3 /*TITRES FLAGS TIMELINE*/
 {	color: #222;		}
-body .vco-timeline .vco-navigation .timenav-background .timenav-tag-row-2 div h3 
+body .vco-timeline .vco-navigation .timenav-background .timenav-tag-row-1 div h3 
 {    color: #888;		}
-body .vco-timeline .vco-navigation .timenav-background .timenav-tag-row-4 div h3 
+body .vco-timeline .vco-navigation .timenav-background .timenav-tag-row-3 div h3 
 {    color: #888;		}
-body .vco-timeline .vco-navigation .timenav-background .timenav-tag-row-6 div h3 
+body .vco-timeline .vco-navigation .timenav-background .timenav-tag-row-5 div h3 
 {    color: #888;		}
 .vco-timeline .vco-navigation .timenav .content .marker.active .flag-small .flag-content h3 
 {    color: #E6000A !important;	}
