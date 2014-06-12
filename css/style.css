@@ -77,8 +77,7 @@ body
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
     -o-hyphens: auto;
-    word-wrap: normal;
-    text-align: justify;
+
 }
 
 /* -----------------------------
@@ -115,3 +114,52 @@ body .vco-timeline .vco-navigation .timenav-background .timenav-tag-row-5 div h3
 .vco-timeline .vco-navigation .timenav .content .marker.active .dot 
 {   background: none repeat scroll 0% 0% #E6000A !important;
     z-index: 200;	}
+
+
+/*
+    text
+*/
+
+
+    .main-nav {
+        display: block;
+        float: left;
+        position: fixed;
+        width: 100%;
+        z-index: 300;
+    }
+
+#main-nav-wrapper {
+    background: none repeat scroll 0% 0% #111;
+    box-shadow: 0px 4px 15px -5px #111;
+    float: left;
+    width:100%;
+}
+
+#logo img {
+    max-height: 50px;
+    padding: 5px 0px 0px 3%;
+    position: relative;
+    float: left;
+}
+
+    .main-nav ul li {
+        display: inline;
+        padding: 12px;
+        position: relative;
+    }
+    .main-nav ul li a {
+        color: #999;
+        font-size: 13px;
+        text-decoration: none;
+        display:block;
+        float: right;
+        margin-right:15px;
+
+    }
+
+    #wrap {
+        width:80%;
+        margin: 50px auto;
+    }
+
