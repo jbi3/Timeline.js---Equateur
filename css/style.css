@@ -230,3 +230,9 @@ body .vco-timeline .vco-navigation .timenav-background .timenav-tag-row-5 div h3
     top: 50px;
     margin: 5px 0px 150px;
 }
+
+.vco-slider .slider-item .content .content-container .media .media-wrapper .media-container .media-image img {
+    border: none !important;
+    background: none;
+
+}
