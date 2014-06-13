@@ -236,3 +236,7 @@ body .vco-timeline .vco-navigation .timenav-background .timenav-tag-row-5 div h3
     background: none;
 
 }
+
+.vco-storyjs a {
+    color: #E6000A !important;
+}
