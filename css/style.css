@@ -1,16 +1,12 @@
 @import url(timeline.css);
 
 body
-{	margin: 0 auto;	
-    font-family : 'Pontano Sans', helvetica, sans-serif;	
-    line-height: 1.3em;
-    }
+{	margin: 0 auto;		}
 
-#storyjs {   
-    background-color: #222;
-}
+body p 
 
-
+#storyjs 
+{    background-color: #222;	}
 
 /* -----------------------------
 	FLECHES DE NAVIGATION
@@ -130,6 +126,7 @@ body .vco-timeline .vco-navigation .timenav-background .timenav-tag-row-5 div h3
     .main-nav {
         display: block;
         float: left;
+        position: fixed;
         width: 100%;
         z-index: 300;
     }
@@ -167,26 +164,4 @@ body .vco-timeline .vco-navigation .timenav-background .timenav-tag-row-5 div h3
         width:80%;
         margin: 50px auto;
     }
-
-    #gototop {
-        position: fixed;
-        bottom: 10px;
-        right:20px;
-        font-size: 4em;
-        text-decoration: none;
-        color:#000;
-    }
-    #gototop:hover {
-        color:#E6000A;   
-    }
-
-
-#wrap h1
-{   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
-    font-size: 45px !important;
-    text-transform: uppercase;
-    color: #000; 
-    font-weight: normal
-}
-
 
